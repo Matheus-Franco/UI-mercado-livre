@@ -85,4 +85,9 @@ export const ButtonChangePage  = styled.button`
   cursor: pointer;
   outline: none;
   border: none;
+  transition: 0.3s;
+
+  &:hover {
+    opacity: 0.6;
+  }
 `;

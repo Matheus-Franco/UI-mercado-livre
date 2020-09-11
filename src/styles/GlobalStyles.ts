@@ -17,6 +17,7 @@ export default createGlobalStyle`
     border: 0;
     background: none;
     font-family: 'Montserrat', -apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    outline: none;
   }
   :root {
     --color-primary: #F5F5F5;
@@ -25,6 +26,7 @@ export default createGlobalStyle`
     --color-gray: #666;
     --color-blue: #3483fa;
     --color-green: #00a650;
+    --color-red: #e53030;
 
     --color-header: #FFF159;
     --color-search-placeholder: #AAAAAA;
