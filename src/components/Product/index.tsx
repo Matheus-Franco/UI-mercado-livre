@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactImageMagnify from 'react-image-magnify';
 
 import tshirtImage from '../../assets/tshirt.png';
 
@@ -19,7 +20,19 @@ const Product: React.FC = () => {
       <Panel>
         <Column>
           <Gallery>
-            <img src={tshirtImage} alt="T-shirt"/>
+            <ReactImageMagnify {... {
+              smallImage: {
+                src: tshirtImage,
+                isFluidWidth: false,
+                width: 400,
+                height: 400,
+              },
+                largeImage: {
+                  src: tshirtImage,
+                  width: 1200,
+                  height: 1800,
+              }
+            }}  />
           </Gallery>
 
           <RecommendedProducts />
