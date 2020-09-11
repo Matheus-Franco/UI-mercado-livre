@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src=".github/mercadolivreUI.gif" />
+<img src=".github/mercadoUI.gif" />
     <br>
     <strong>UI clone</strong> <br>
     Mercado Livre
@@ -37,6 +37,7 @@ This is a clone of the product page interface of the
 - [Typescript](https://www.typescriptlang.org/)
 - [Styled Components](https://styled-components.com/)
 - [React-icons](https://react-icons.github.io/react-icons/)
+- [React-image-magnify](https://www.npmjs.com/package/react-image-magnify)
 
 <br />
 
@@ -44,6 +45,7 @@ This is a clone of the product page interface of the
 
 - <strong>Simple effects</strong>
 - <strong>Paginate</strong>
+- <strong>Image zoom</strong>
 
 <br />
 
