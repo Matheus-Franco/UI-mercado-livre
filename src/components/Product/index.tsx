@@ -4,6 +4,7 @@ import tshirtImage from '../../assets/tshirt.png';
 
 import SellerInfo from '../SellerInfo';
 import ProductAction from '../ProductAction';
+import RecommendedProducts from '../RecommendedProducts';
 
 import { Container, Row, Panel, Column, Gallery, Section, Description } from './styles';
 
@@ -20,6 +21,8 @@ const Product: React.FC = () => {
           <Gallery>
             <img src={tshirtImage} alt="T-shirt"/>
           </Gallery>
+
+          <RecommendedProducts />
 
           <Info />
         </Column>
